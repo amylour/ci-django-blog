@@ -30,10 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-amylour-ci-django-blog-ig825e2s76.us2.codeanyapp.com',
-                 'django-blog-prac.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['django-blog-prac.herokuapp.com', 'localhost']
 
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
